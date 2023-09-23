@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .element-with-padding {
-  padding: 70px;
+  padding: 100px;
 }
 
 /* Larger image for screens wider than 768px (Bootstrap's medium breakpoint) */
