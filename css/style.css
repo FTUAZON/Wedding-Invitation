@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .element-with-padding {
-  padding: 50px; /* Adds 10px of space inside the element */
+  padding: 70px;
 }
 
 /* Larger image for screens wider than 768px (Bootstrap's medium breakpoint) */
@@ -2272,7 +2272,7 @@ fadeIn {  from {
 
 .float{
   position:fixed;
-  bottom:20px;
+  bottom:0px;
   text-align:center;
   width: 100%;
   z-index: 100;
@@ -2375,5 +2375,17 @@ fadeIn {  from {
   background-position: 50% 0;
   background-size: cover;
 }
+
+/* Pulsating Effects on landing page*/
+
+@keyframes pulsate {
+  0% { color: #bf9b73; transform: scale(1); }
+  50% { color: yellow; transform: scale(1.1); }
+  100% { color: #bf9b73; transform: scale(1); }
+}
+#invitation-text {
+  animation: pulsate 2s infinite;
+}
+
 
 /*# sourceMappingURL=style.css.map */
